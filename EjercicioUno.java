@@ -4,10 +4,13 @@ public class EjercicioUno {
     private double radius;
 
     private String color;
-//MODIFICACIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOON
     //Constructores (sobrecargados)
+
+
+    //daasassa
+    //sasaassa
     public Circle() {
-        radius = 1.0;
+        radius = 2.0;
 
         color = "rojo";
     }
