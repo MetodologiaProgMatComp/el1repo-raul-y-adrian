@@ -2,7 +2,7 @@ package es.uah.matcomp.mp.el1.Ejercicio4;
 
 public class Main {
     public static void main(String[] args) {
-        Funciones c1= new Funciones("Raul", "Muñoz",9085451);
+        Empleado c1= new Empleado("Raul", "Muñoz",9085451);
         c1.setSalary(1000);
 
         System.out.println("Las caracteristicas de nuestro empleado son: ");

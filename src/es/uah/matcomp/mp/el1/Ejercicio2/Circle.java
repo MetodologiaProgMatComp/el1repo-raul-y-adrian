@@ -17,7 +17,7 @@ public class Circle {
         return radius;
     }
 
-    public void setRadius(double radius) {
+    public void setRadius(int radius) {
         this.radius = radius;
     }
 
@@ -29,7 +29,7 @@ public class Circle {
 
 
     }
-//PRUEBA
+
     public String toString() {
         return "Circle{" +
                 "radius=" + radius +

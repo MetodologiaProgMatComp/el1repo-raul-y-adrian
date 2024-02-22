@@ -1,6 +1,6 @@
 package es.uah.matcomp.mp.el1.Ejercicio4;
 
-public class Funciones {
+public class Empleado {
     //VARIABLES
     private int id;
     private String firstname;
@@ -16,7 +16,7 @@ public class Funciones {
     //}
 
     ///constructor cuyos valores de las variables se incluiran en el main al nombrar a la funcion main
-    public Funciones(String firstname, String lastname, int id) {
+    public Empleado(String firstname, String lastname, int id) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.id=id;
@@ -54,13 +54,13 @@ public class Funciones {
         return salary * 12;
     }
 
-    public int raiseSalary(int percentage) {
+    public int raiseSalary(float percentage) {
         return (int) (salary + (salary * percentage / 100.0));
     }
 
 
     public String toString() {
-        return "ejercicio4.funciones{" +
+        return "ejercicio4.Empleado{" +
                 "id=" + id +
                 ", firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
