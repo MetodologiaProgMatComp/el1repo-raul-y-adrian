@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.el1.Ejercicio3;
+package es.uah.matcomp.mp.el1.practica1.Ejercicio3;
 
 public class Main {
     public static void main(String[] args){

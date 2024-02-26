@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.el1.Ejercicio6;
+package es.uah.matcomp.mp.el1.practica1.Ejercicio6;
 
 public class Account {
     String id;

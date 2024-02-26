@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.el1.Ejercicio5;
+package es.uah.matcomp.mp.el1.practica1.Ejercicio5;
 
 public class InvoiceItem {
     private String id;

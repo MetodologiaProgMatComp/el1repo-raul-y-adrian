@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.el1.Ejercicio2;
+package es.uah.matcomp.mp.el1.practica1.Ejercicio2;
 
 public class Circle {
     private double radius;
