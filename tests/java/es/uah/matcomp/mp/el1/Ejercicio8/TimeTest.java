@@ -23,14 +23,17 @@ class TimeTest {
 
     @Test
     void setHour() {
+        assertEquals(19, c1.getHour());
     }
 
     @Test
     void setMinute() {
+        assertEquals(16, c1.getMinute());
     }
 
     @Test
     void setSecond() {
+        assertEquals(35, c1.getSecond());
     }
 
     @Test
