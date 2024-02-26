@@ -12,8 +12,8 @@ public class Ball {
         this.x = x;
         this.y = y;
         this.radius = radius;
-        this.XDelta = XDelta;
-        this.YDelta = YDelta;
+        this.XDelta = xDelta;
+        this.YDelta = yDelta;
     }
 
     public float getX() {
@@ -61,7 +61,7 @@ public class Ball {
         y+=YDelta;
     }
     public void reflectHorizontal(){
-        XDelta=-YDelta;
+        XDelta=-XDelta;
     }
     public void reflectVertical(){
         YDelta=-YDelta;
