@@ -34,17 +34,18 @@ public class Account {
         return balance;
     }
 
-    public void credito(int cantidad) {
-        this.balance += cantidad;
-
+    public int credito(int cantidad) {
+        return this.balance += cantidad;
     }
 
-    public void debit(double cantidad) {
+    public int debit(double cantidad) {
         if (cantidad <= getBalance()) {
-            this.balance -= cantidad;
+            return this.balance -= cantidad;
+
 
         } else {
-            System.out.println("NO SALDO");
+            return 0;
+
         }
     }
 
@@ -62,9 +63,6 @@ public class Account {
     }
 
     public int transfer(int cantidad) {
-        this.balance = balance - cantidad;
-        return cantidad;
-
-
+        return this.balance = balance - cantidad;
     }
 }
