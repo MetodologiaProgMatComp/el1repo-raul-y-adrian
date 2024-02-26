@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.el1.Ejercicio9;
+package es.uah.matcomp.mp.el1.practica1.Ejercicio7;
 
 
 public class Main {
