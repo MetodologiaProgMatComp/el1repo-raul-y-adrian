@@ -19,12 +19,9 @@ public class Main {
         // Use an anonymous instance of Author to construct a Book instance
         Book anotherBook = new Book("more Java",
                 new Author("Paul Tan", "paul@somewhere.com", 'm'), 29.95);
-        System.out.println(anotherBook); // toString
-
-
-        System.out.println(anotherBook.getAuthoremail());
-        System.out.println(anotherBook.getAuthorname());
-        System.out.println(anotherBook.getAuthorGender());
+        System.out.println(anotherBook);// toStringddd
+        System.out.println("El email del autor es: "+ anotherBook.getAuthor().getEmail()+" y el nombre es: "+ anotherBook.getAuthor().getName());
+        System.out.println("El email del autor es: "+anotherBook.getAuthorEmail()+"el nombre es: "+anotherBook.getAuthorName())
     }
 
 }
