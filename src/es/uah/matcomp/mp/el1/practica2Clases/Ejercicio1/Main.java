@@ -1,7 +1,7 @@
 package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio1;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // Construct an author instance
         Author ahTeck = new Author("Tan Ah Teck", "ahteck@nowhere.com", 'm');
         System.out.println(ahTeck); // Author's toString()
@@ -20,8 +20,8 @@ public class Main {
         Book anotherBook = new Book("more Java",
                 new Author("Paul Tan", "paul@somewhere.com", 'm'), 29.95);
         System.out.println(anotherBook);// toStringddd
-        System.out.println("El email del autor es: "+ anotherBook.getAuthor().getEmail()+" y el nombre es: "+ anotherBook.getAuthor().getName());
-        System.out.println("El email del autor es: "+anotherBook.getAuthorEmail()+"el nombre es: "+anotherBook.getAuthorName())
+        System.out.println("El email del autor es: " + anotherBook.getAuthor().getEmail() + " y el nombre es: " + anotherBook.getAuthor().getName());
+        System.out.println("El email del autor es: " + anotherBook.getAuthorEmail() + "el nombre es: " + anotherBook.getAuthorName() +" genero " + anotherBook.getAuthorGender());
     }
 
 }

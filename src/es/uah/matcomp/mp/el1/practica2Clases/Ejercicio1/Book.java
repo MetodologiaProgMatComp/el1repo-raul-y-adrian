@@ -47,10 +47,10 @@ public class Book {
         this.qty=qtyGiven;
     }
 
-    public String getAuthorname(){
+    public String getAuthorName(){
         return author.getName();
     }
-    public String getAuthoremail(){
+    public String getAuthorEmail(){
         return author.getEmail();
     }
     public char getAuthorGender(){
