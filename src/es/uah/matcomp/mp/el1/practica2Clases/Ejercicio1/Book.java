@@ -47,6 +47,15 @@ public class Book {
         this.qty=qtyGiven;
     }
 
+    public String getAuthorname(){
+        return author.getName();
+    }
+    public String getAuthoremail(){
+        return author.getEmail();
+    }
+    public char getAuthorGender(){
+        return author.getGender();
+    }
     @Override
     public String toString() {
         return "Book[" +

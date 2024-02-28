@@ -9,10 +9,10 @@ public class Author {
 
     //Constructor
 
-    public Author (String n, String e, char g){
-        this.name=n;
-        this.email=e;
-        this.gender=g;
+    public Author (String name, String email, char gender){
+        this.name=name;
+        this.email=email;
+        this.gender=gender;
     }
 
     //Getters
