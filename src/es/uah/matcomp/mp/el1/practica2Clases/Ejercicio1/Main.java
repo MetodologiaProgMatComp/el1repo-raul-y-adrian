@@ -19,7 +19,7 @@ public class Main {
         // Use an anonymous instance of Author to construct a Book instance
         Book anotherBook = new Book("more Java",
                 new Author("Paul Tan", "paul@somewhere.com", 'm'), 29.95);
-        System.out.println(anotherBook); // toString()
+        System.out.println(anotherBook); // toStringddd
     }
 
 }
