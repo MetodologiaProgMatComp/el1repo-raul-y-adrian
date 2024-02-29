@@ -34,5 +34,34 @@ public class MyPoint {
         datos[1] = y;
         return datos;
     }
+    public void setXY(int x, int y){
+        this.x=x;
+        this.y=y;
+    }
+
+    @Override
+    public String toString() {
+        return "(" +
+                 x +
+                "," + y +
+                ')';
+    }
+
+    public double distance(int x, int y){
+        int[] origen=getXY();
+
+        return Math.sqrt((x-origen[0])*(x-origen[0])+(y-origen[1])*(y-origen[1]));
+    }
+
+    public double distance(MyPoint another){
+        int[] c1=getXY();
+        return Math.sqrt((another.getX()-c1[0])*(another.getX()-c1[0])+(another.getY()-c1[1])*(another.getY()-c1[1]));
+
+
+    }
+
+
+
+
 
 }
