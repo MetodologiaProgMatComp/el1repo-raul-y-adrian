@@ -11,8 +11,9 @@ public class main {
         System.out.println(c1.toString());
         System.out.println(c1.distance(2,2));
         MyPoint c2= new MyPoint();
-        c2.setX(4);
-        c2.setY(3);
+        c2.setX(3);
+        c2.setY(1);
         System.out.println(c1.distance(c2));
+        System.out.println(c2.distance());
     }
 }

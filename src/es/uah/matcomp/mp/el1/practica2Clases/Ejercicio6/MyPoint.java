@@ -57,11 +57,14 @@ public class MyPoint {
         int[] c1=getXY();
         return Math.sqrt((another.getX()-c1[0])*(another.getX()-c1[0])+(another.getY()-c1[1])*(another.getY()-c1[1]));
 
-
     }
 
+    public double distance(){
+        int x2=getX();
+        int y2=getY();
 
-
+        return Math.sqrt((x2-0)*(x2-0)+(y2-0)*(y2-0));
+    }
 
 
 }
