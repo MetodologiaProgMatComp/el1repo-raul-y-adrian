@@ -1,14 +1,14 @@
-package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio4;
+package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio3;
 
 public class Customer {
     private int id;
     private String name;
-    private char gender;
+    private int discount;
 
-    public Customer(int id, String name, char gender) {
+    public Customer(int id, String name, int discount) {
         this.id = id;
         this.name = name;
-        this.gender = gender;
+        this.discount = discount;
     }
 
     public int getId() {
@@ -19,12 +19,18 @@ public class Customer {
         return name;
     }
 
-    @Override
-    public String toString() {
-        return name+"("+id+")";
+    public int getDiscount() {
+        return discount;
     }
 
-    public char getGender() {
-        return gender;
+    public void setDiscount(int discount) {
+        this.discount = discount;
+    }
+
+    @Override
+    public String toString() {
+        return "name'" + name + "(" + id + ")" + "(" +
+                discount + "%)";
     }
 }
+
