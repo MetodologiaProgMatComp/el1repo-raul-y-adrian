@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio1;
+package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio1y2;
 
 public class Author {
     private String name;

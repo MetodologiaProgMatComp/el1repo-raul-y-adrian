@@ -1,4 +1,6 @@
-package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio2;
+package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio3;
+
+import es.uah.matcomp.mp.el1.practica2Clases.Ejercicio3.Author;
 
 public class Book {
     private String isbn;
@@ -25,6 +27,8 @@ public class Book {
         this.price = price;
         this.qty = qty;
     }
+
+
 
     public String getIsbn() {
         return isbn;
@@ -68,4 +72,6 @@ public class Book {
                 ", qty=" + qty +
                 ']';
     }
+
+
 }

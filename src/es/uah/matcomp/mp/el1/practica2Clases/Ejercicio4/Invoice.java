@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio3;
+package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio4;
 
 public class Invoice {
     private int id;
