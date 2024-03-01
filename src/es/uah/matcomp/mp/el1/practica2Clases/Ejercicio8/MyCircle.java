@@ -69,8 +69,8 @@ public class MyCircle {
         return (Math.PI*radius*radius);
     }
 
-    public double distance(MyCircle another){
-        return Math.sqrt((center.distance(another.getCenterXY()));
-    }
+   // public double distance(MyCircle another){
+     //   return Math.sqrt((center.distance(another.getCenterXY()));
+    //}
 
 }
