@@ -65,8 +65,12 @@ public class MyCircle {
                 '}';
     }
 
-    public int getArea(){
+    public double getArea(){
         return (Math.PI*radius*radius);
+    }
+
+    public double distance(MyCircle another){
+        return Math.sqrt((center.distance(another.getCenterXY()));
     }
 
 }
