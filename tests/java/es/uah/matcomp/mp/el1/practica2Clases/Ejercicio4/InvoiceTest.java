@@ -30,22 +30,27 @@ class InvoiceTest {
 
     @Test
     void setAmount() {
-        c1.s
+        c1.setAmount(50);
+        assertEquals(50, c1.getAmount());
     }
 
     @Test
     void getCustomerId() {
+        assertEquals(1, c1.getCustomerId());
     }
 
     @Test
     void getCustomerName() {
+        assertEquals("Raul", c1.getCustomerName());
     }
 
     @Test
     void getCustomerDiscount() {
+        assertEquals(10, c1.getCustomerDiscount());
     }
 
     @Test
     void getAmountAfterDiscount() {
+        assertEquals(18,c1.getAmountAfterDiscount() );
     }
 }
