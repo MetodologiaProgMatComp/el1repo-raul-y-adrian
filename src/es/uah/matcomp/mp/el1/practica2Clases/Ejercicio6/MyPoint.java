@@ -3,11 +3,10 @@ package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio6;
 public class MyPoint {
     private int x=0;
     private int y=0;
-
-    public void MyPoint(){
+    public MyPoint() {
 
     }
-    public void MyPoint(int x, int y){
+    public MyPoint(int x, int y){
         this.x=x;
         this.y=y;
     }
@@ -67,4 +66,6 @@ public class MyPoint {
     }
 
 
+    public void myPoint(int i, int i1) {
+    }
 }
