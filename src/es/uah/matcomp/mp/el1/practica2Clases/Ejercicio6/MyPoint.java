@@ -9,6 +9,7 @@ public class MyPoint {
     public MyPoint(int x, int y){
         this.x=x;
         this.y=y;
+        return;
     }
 
     public int getX() {
