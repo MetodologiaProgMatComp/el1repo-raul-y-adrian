@@ -1,8 +1,8 @@
 package es.uah.matcomp.mp.el1.practica2Clases.Ejercicio6;
 
 public class MyPoint {
-    private int x=0;
-    private int y=0;
+    private int x;
+    private int y;
     public MyPoint() {
 
     }
