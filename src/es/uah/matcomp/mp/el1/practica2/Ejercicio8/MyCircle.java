@@ -12,11 +12,12 @@ public class MyCircle {
     }
 
     public MyCircle(int x, int y, int radius) {
+        this.center = new MyPoint(x, y);
 
     }
 
     public MyCircle(MyPoint center, int radius) {
-
+        this.center = center;
     }
 
     //Funciones para el circulo
@@ -31,7 +32,7 @@ public class MyCircle {
 
     //Funciones para el centro
     public MyPoint getCenter() {
-        return center;
+        return this.center;
     }
 
     public void setCenter(MyPoint center) {
@@ -48,7 +49,6 @@ public class MyCircle {
 
     public int getCenterY() {
         return center.getY();
-
     }
 
     public void setCenterY(int y) {
@@ -62,14 +62,13 @@ public class MyCircle {
     public void setCenterXY(int x, int y) {
         center.setXY(x, y);
     }
+
     //Funcion Tostring()
     @Override
     public String toString() {
-        return "MyCircle{" +
-                "center=" + center.toString() +
-                ", radius=" + radius +
-                '}';
+        return "MyCircle{" + "center=" + center.toString() + ", radius=" + radius + '}';
     }
+
     //Funciones que devuelven cualidades del circulo
     public double getArea() {
         return (Math.PI * Math.pow(radius, 2));
@@ -82,6 +81,5 @@ public class MyCircle {
     public double distance(MyCircle another) {
         return (center.distance(another.getCenter()));
     }
-    //}
 
 }

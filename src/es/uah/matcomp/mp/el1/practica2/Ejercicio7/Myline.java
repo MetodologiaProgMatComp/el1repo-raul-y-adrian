@@ -7,14 +7,19 @@ public class Myline {
     MyPoint end = new MyPoint();
 
 
-
-    public Myline(int x1, int y1, int x2, int y2){
-
+    //Constructores
+    public Myline(int x1, int y1, int x2, int y2) {
+        MyPoint begin=new MyPoint(x1,y1);
+        MyPoint end=new MyPoint(x2,y2);
+        this.begin=begin;
+        this.end=end;
     }
+
     public Myline(MyPoint begin, MyPoint end) {
-
+        this.begin=begin;
+        this.end=end;
     }
-
+    //Funciones que trabajan con los puntos tipo Mypoint: (Begin y end)
     public MyPoint getBegin() {
         return begin;
     }
@@ -32,65 +37,69 @@ public class Myline {
     }
 
 
-
-
-
     //FUNCIONES DEL BEGIN
-    public int getBeginX(){
+    public int getBeginX() {
         return begin.getX();
     }
-    public void setBeginX(int x){
+
+    public void setBeginX(int x) {
         begin.setX(x);
     }
-    public int getBeginY(){
+
+    public int getBeginY() {
         return begin.getY();
     }
-    public void setBeginY(int y){
+
+    public void setBeginY(int y) {
         begin.setY(y);
     }
 
 
     //Funciones del end
-    public int getEndX(){
+    public int getEndX() {
         return end.getX();
     }
-    public void setEndX(int x){
+
+    public void setEndX(int x) {
         end.setX(x);
     }
-    public int getEndY(){
+
+    public int getEndY() {
         return end.getY();
     }
-    public void setEndY(int y){
+
+    public void setEndY(int y) {
         end.setY(y);
     }
 
     //FUNCIONES PARA XY
     //BEGIN
-    public int[] getBeginXY(){
+    public int[] getBeginXY() {
         return begin.getXY();
     }
 
-    public void setBeginXY(int x, int y){
-        begin.setXY(x,y);
+    public void setBeginXY(int x, int y) {
+        begin.setXY(x, y);
     }
 
     //END
-    public int[] getEndXY(){
+    public int[] getEndXY() {
         return end.getXY();
     }
 
-    public void setEndXY(int x, int y){
-        end.setXY(x,y);
+    public void setEndXY(int x, int y) {
+        end.setXY(x, y);
     }
 
     //LENGTH
-    public double getLength(){
-        double resultado=begin.distance(end);
+    public double getLength() {
+        double resultado = begin.distance(end);
         return resultado;
     }
-    public double getGradient(){
 
-        return Math.atan2((getEndY()-getBeginY()),(getEndX()-getBeginX()));
+    public double getGradient() {
+
+        return Math.atan2((getEndY() - getBeginY()), (getEndX() - getBeginX()));
     }
 
     @Override
