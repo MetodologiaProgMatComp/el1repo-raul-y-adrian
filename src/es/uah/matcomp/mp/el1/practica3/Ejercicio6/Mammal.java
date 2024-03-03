@@ -8,6 +8,6 @@ public class Mammal extends Animal{
 
     @Override
     public String toString() {
-        return "Mammal{}";
+        return "Mamal[Animal[name="+this.name+"]]";
     }
 }

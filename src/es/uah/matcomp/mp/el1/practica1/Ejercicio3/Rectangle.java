@@ -1,17 +1,15 @@
 package es.uah.matcomp.mp.el1.practica1.Ejercicio3;
 
 public class Rectangle {
-    private float length;
-    private float width;
+    private float length=1.0f;
+    private float width=1.0f;
 
     //Conctructores
     public Rectangle() {
-        float length = 1.0f;
-        float width = 1.0f;
     }
-    public Rectangle(float l, float w){
-        length=l;
-        width=w;
+    public Rectangle(float length, float width){
+        this.length=length;
+        this.width=width;
     }
 
     public float getLength() {
