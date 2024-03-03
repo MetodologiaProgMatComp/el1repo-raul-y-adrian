@@ -2,7 +2,7 @@ package es.uah.matcomp.mp.el1.practica3.Ejercicio1;
 
 public class Circle {
     private double radius=1.0;
-    private String color="red";
+    private String color="Red";
 
     public Circle(){
 
