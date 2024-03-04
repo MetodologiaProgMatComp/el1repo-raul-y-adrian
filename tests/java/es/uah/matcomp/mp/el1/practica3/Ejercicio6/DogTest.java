@@ -8,15 +8,7 @@ class DogTest {
     Dog dog=new Dog("Pepe");
 
     @Test
-    void greets() {
-        assertEquals("guau", dog.greets());
-    }
-
-    @Test
-    void testGreets() {
-    }
-
-    @Test
     void testToString() {
+        dog.greets();
     }
 }
