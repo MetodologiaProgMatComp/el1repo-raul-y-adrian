@@ -1,6 +1,6 @@
 package es.uah.matcomp.mp.el1.practica4.Ejercicio1;
 
-public class Shape {
+public abstract class Shape {
     protected String color="red";
     protected boolean filled=true;
 
@@ -31,10 +31,9 @@ public class Shape {
         this.filled=filled;
     }
 
-    @Override
-    public abstract double getArea(){//
-        return;
-    }
+
+    public abstract double getArea();
+    public abstract double getPerimeter();
 
     @Override
     public String toString() {

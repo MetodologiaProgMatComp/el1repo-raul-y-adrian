@@ -2,7 +2,6 @@ package es.uah.matcomp.mp.el1.practica4.Ejercicio1;
 
 public class Circle extends Shape{
     protected double radius=1.0;
-
     public Circle() {
     }
     public Circle(double radius) {
@@ -21,10 +20,13 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
+    @Override
+
     public double getArea(){
         return radius*radius*Math.PI;
     }
 
+    @Override
     public double getPerimeter(){
         return radius*2*Math.PI;
     }
