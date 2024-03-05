@@ -38,7 +38,7 @@ class RectangleTest {
 
     @Test
     void getPerimeter() {
-        assertEquals(400,r1.getPerimeter());
+        assertEquals((20+10)*2,r1.getPerimeter());
     }
 
     @Test
