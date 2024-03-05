@@ -52,7 +52,7 @@ public class Main {
         //System.out.println(r2.getColor());
         //System.out.println(r2.getSide());
         //System.out.println(r2.getLength());
-// No podemos hacer el upgrade porque square tiene atributos propios a olos que no puede acceder el rectangle
+// No podemos hacer el upgrade porque square tiene atributos propios a los que no puede acceder el rectangle
 // Downcast Rectangle r2 to Square
         //Square sq1 = (Square)r2;
         //System.out.println(sq1);
