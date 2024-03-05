@@ -1,6 +1,8 @@
 package es.uah.matcomp.mp.el1.practica4.Ejercicio2;
 
-public class Circle {
+import es.uah.matcomp.mp.el1.practica4.Ejercicio5.GeometricObject;
+
+public class Circle implements GeometricObject {
     private double radius;
 
     public Circle(double radius) {

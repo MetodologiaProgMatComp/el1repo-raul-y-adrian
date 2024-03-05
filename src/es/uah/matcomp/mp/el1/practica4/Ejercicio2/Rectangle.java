@@ -3,7 +3,7 @@ package es.uah.matcomp.mp.el1.practica4.Ejercicio2;
 public class Rectangle implements GeometricObject {
     private double length;
     private double width;
-    public Rectangle(double wifth, double length){
+    public Rectangle(double width, double length){
         this.width=width;
         this.length=length;
     }
